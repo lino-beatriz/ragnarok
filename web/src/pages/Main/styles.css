@@ -1,0 +1,71 @@
+
+/* Estilização do banner */
+.banner{
+    width: 100%;
+    height: 87vh;
+    background-color: white;
+}
+
+.banner img{
+    width: inherit;
+    height: inherit;
+}
+
+/* Estilização do container do conteudo */
+.catalog-container{
+    width: 100%;
+    height: 120vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    box-sizing: border-box;
+    background-image: url('../../images/background.jpg');
+    background-size: cover;
+}
+
+/* Estilização do titulo "Catálogo" */
+.catalog-title{
+    width: 100%;
+    height: 5vh;
+    /* background-color: red; */
+    margin-bottom: 5vh;
+    padding-left: 5vw;
+    padding-top: 1vh;
+    box-sizing: border-box;
+}
+
+.catalog-title strong{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+
+/* Estilização da lista de jogos */
+.game-list{
+    width: 100%;
+    height: 90vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+}
+
+.game-list img{
+    width: 15vw;
+    height: 41vh;
+    margin-left: 3vw;
+    margin-bottom: 5vh;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: transform .2s; 
+}
+
+.game-list img:hover{
+    box-shadow: inset 0 0 1em gold, 0 0 1em #119cbb8a;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}

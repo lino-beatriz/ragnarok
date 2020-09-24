@@ -1,0 +1,158 @@
+#content-buy{
+    width: 100%;
+    height: 120vh;
+    background-color: #070032;
+    padding-top: 3vh;
+    box-sizing: border-box;
+}
+
+#card-payment{
+    width: 50%;
+    height: 113vh;
+    background-color: rgba(0, 0, 0, 0.29);
+    border-radius: 0.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1vw;
+    box-sizing: border-box;
+}
+
+form{
+    width: 100%;
+    height: 50vh;
+    /* background-color: red; */
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.699);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+input{
+    width: 100%;
+    height: 5vh;
+    border: none;
+    border-bottom: solid 1px #15C2E7;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 4vh;
+}
+
+#cpf{
+    width: 20%;
+    float: left;
+}
+
+#email{
+    width: 75%;
+    float: right;
+
+}
+
+#address{
+    width: 80%;
+    float: left;
+}
+
+#number{
+    width: 15%;
+    float: right;
+}
+
+#city{
+    width: 45%;
+    float: left;
+}
+
+#state{
+    width: 45%;
+    float: right;
+}
+
+#card-data{
+    width: 100%;
+    height: 50vh;
+    float: left;
+}
+
+#card-data h2, form h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.3em;
+}
+
+form h2{
+    margin-bottom: 3vh;
+}
+
+#left-column{
+    width: 60%;
+    height: 56vh;
+    padding-top: 3vh;
+    box-sizing: border-box;
+    float: left;
+}
+
+#name-card{
+    width: 100%;
+    float: left;
+}
+
+#valid{
+    width: 50%;
+    float: left;
+}
+
+#cvv{
+    width: 45%;
+    float: right;
+}
+
+#total{
+    width: 20%;
+    float: left;
+}
+
+#total input{
+    color: rgb(168, 168, 168);
+    font-size: 1em;
+}
+
+#checkout{
+    width: 50%;
+    height: 6vh;
+    background-color: #15C2E7;
+    border: none;
+    border-radius: 0.3vw;
+    color: #070032;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    -webkit-box-shadow: 1px 4px 9px 0px rgba(21, 193, 231, 0.514);
+    -moz-box-shadow: 1px 4px 9px 0px rgba(21, 193, 231, 0.514);
+    box-shadow: 1px 4px 9px 0px rgba(21, 193, 231, 0.514);
+    cursor: pointer;
+    transition: 1s;
+    margin-left: 8vw;
+    margin-top: 1vh;
+}
+
+#checkout:hover{
+    background-color: rgba(21, 193, 231, 0.74);
+    transition: 1s;
+}
+
+#right-column{
+    width: 38%;
+    height: 45vh;
+    float: right;
+}
+
+#right-column img{
+    width: 100%;
+    height: inherit;
+    border-radius: 0.5vw;
+}
