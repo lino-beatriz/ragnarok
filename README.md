@@ -12,18 +12,9 @@
 - Express
 - Axios
 
-# :boom: Como executar
-
-- ### **Pré-requisitos**
+# :boom: Pré-requisitos
 
   - É necessário possuir o Node.js instalado no computador
   - Também, é preciso ter um gerenciador de pacotes seja o NPM ou Yarn.
   
-1 Para executar a aplicação:
-
-     # Para iniciar a API
-     ```$ yarn dev```
-
-    # Para iniciar a Aplicação web
-    ```$ yarn start```
 
